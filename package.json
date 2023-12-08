@@ -1,5 +1,5 @@
 {
-  "name": "serverless-r2-deploy",
+  "name": "@looping-ads/serverless-r2-deploy",
   "version": "1.0.0",
   "description": "R2 Asset copy for serverless",
   "main": "index.js",

@@ -1,11 +1,11 @@
-# serverless-s3-deploy
+# Serverless R2 Deploy
 
 Plugin for serverless to deploy files to cloudflare R2
 
 # Installation
 
 ```
- npm install --save-dev serverless-r2-deploy
+ npm install --save-dev @looping-ads/serverless-r2-deploy
 ```
 
 # Usage
@@ -14,7 +14,7 @@ Add to your serverless.yml:
 
 ```
   plugins:
-    - serverless-r2-deploy
+    - "@looping-ads/serverless-r2-deploy"
 
   custom:
     r2deploy:

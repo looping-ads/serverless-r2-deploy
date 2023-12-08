@@ -48,6 +48,8 @@ class R2Deploy {
     for (const chunk of this.getFileChunks(this.config.uploadConcurrency)) {
       await this.uploadChunk(s3, chunk)
     }
+
+    this.serverless.cli.log('R2 assets Deployed')
   }
 
   getFileChunks(size = 1000) {
