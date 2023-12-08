@@ -1,32 +1,21 @@
 {
-  "name": "serverless-s3-deploy",
-  "version": "0.10.1",
-  "description": "S3 Asset copy for serverless",
+  "name": "serverless-r2-deploy",
+  "version": "1.0.0",
+  "description": "R2 Asset copy for serverless",
   "main": "index.js",
-  "scripts": {
-    "lint": "eslint index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Curtis Maloney",
+  "author": "Looping Ads",
   "contributors": [
-    "Dan Rumney <dancrumb@gmail.com>"
+    "Looping Ads <tech@looping-ads.eu>",
+    "paulhenri-l <25308170+paulhenri-l@users.noreply.github.com>"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/funkybob/serverless-s3-deploy.git"
+    "url": "git+https://github.com/looping-ads/serverless-r2-deploy.git"
   },
   "dependencies": {
-    "bluebird": "^3.7.2",
+    "aws-sdk": "^2.1514.0",
     "glob-all": "^3.3.0",
     "mime-types": "^2.1.35"
-  },
-  "devDependencies": {
-    "eslint": "^8.35.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-standard": "^5.0.0"
   }
 }
